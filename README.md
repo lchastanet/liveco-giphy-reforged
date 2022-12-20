@@ -1,5 +1,9 @@
 # Livecoding fetch Giphy API and demo of tailwind
 
+What we are supposed to have :
+
+![image](./_ressources/diagram.png)
+
 Clone this repository and :
 
 ```shell

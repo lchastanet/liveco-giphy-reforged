@@ -15,7 +15,7 @@ function SelectedGif({ gif, setSelected }) {
       <img
         className="rounded max-w-md"
         src={gif.images.downsized_large.url}
-        alt=""
+        alt={gif.title}
       />
     </div>
   );
