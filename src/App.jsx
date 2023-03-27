@@ -12,7 +12,7 @@ function App() {
     e.preventDefault();
 
     fetch(
-      `http://api.giphy.com/v1/gifs/search?api_key=${
+      `https://api.giphy.com/v1/gifs/search?api_key=${
         import.meta.env.VITE_GIPHY_API
       }&q=${query}&limit=5`
     )
